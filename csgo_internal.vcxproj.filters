@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\hooks">
+      <UniqueIdentifier>{fc034ddb-7696-463a-97ac-51f6d7d99e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render">
+      <UniqueIdentifier>{12483988-f366-46e3-b203-a78b343893c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features">
+      <UniqueIdentifier>{cb2b7a71-9963-4868-af7d-e77f12593a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features\rage">
+      <UniqueIdentifier>{18704e70-de3a-4c48-9210-08c5fa69e5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features\visual">
+      <UniqueIdentifier>{d9029a45-6654-4bd7-8ba7-7a5979c8bc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features\extra">
+      <UniqueIdentifier>{efbd0468-d55f-422c-b652-a0eec1252eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hack">
+      <UniqueIdentifier>{719c1674-b48d-4e4b-8b0d-cc7ce19eaff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDK">
+      <UniqueIdentifier>{ad344f91-e93b-485e-9000-f41edbe3bab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features\legit">
+      <UniqueIdentifier>{6b2ccaf5-8227-40d4-857e-fab11d855e13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="createmove.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="present.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="wndproc.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="runcommand.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="frame_stage_notify.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="post_data_received.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_end.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="override_view.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="is_hltv.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="post_screen_effects.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="find_model.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="emit_sound.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="rage.cpp">
+      <Filter>Source Files\features\rage</Filter>
+    </ClCompile>
+    <ClCompile Include="prediction.cpp">
+      <Filter>Source Files\features\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="autowall.cpp">
+      <Filter>Source Files\features\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="lagcomp.cpp">
+      <Filter>Source Files\features\rage</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Source Files\features\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>Source Files\features\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="resolver.cpp">
+      <Filter>Source Files\features\rage</Filter>
+    </ClCompile>
+    <ClCompile Include="target_selection.cpp">
+      <Filter>Source Files\features\rage</Filter>
+    </ClCompile>
+    <ClCompile Include="playerlist.cpp">
+      <Filter>Source Files\features\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.cpp">
+      <Filter>Source Files\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaces.cpp">
+      <Filter>Source Files\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>Source Files\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="netvar_compression.cpp">
+      <Filter>Source Files\features\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="precompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netvars.cpp">
+      <Filter>Source Files\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="in_prediction.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="boner.cpp">
+      <Filter>Source Files\features\rage</Filter>
+    </ClCompile>
+    <ClCompile Include="legit.cpp">
+      <Filter>Source Files\features\legit</Filter>
+    </ClCompile>
+    <ClCompile Include="play_sound.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="paint_traverse.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="shutdown.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="antiaim.cpp">
+      <Filter>Source Files\features\rage</Filter>
+    </ClCompile>
+    <ClCompile Include="reset.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="nade_prediction.cpp">
+      <Filter>Source Files\features\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="events.cpp">
+      <Filter>Source Files\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="anims.cpp">
+      <Filter>Source Files\features\rage</Filter>
+    </ClCompile>
+    <ClCompile Include="is_paused.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_model_execute.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="is_connected.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="override_mouse_input.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="override_cfg.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hdn_firegameevent.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="find_or_add_file.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="should_draw_fog.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="lagcomp_legit.cpp">
+      <Filter>Source Files\features\legit</Filter>
+    </ClCompile>
+    <ClCompile Include="get_local_viewangles.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="concat.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="on_screen_size_changed.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="get_screen_size.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gui.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="wrappers.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="rage.h">
+      <Filter>Source Files\features\rage</Filter>
+    </ClInclude>
+    <ClInclude Include="prediction.h">
+      <Filter>Source Files\features\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="autowall.h">
+      <Filter>Source Files\features\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="resolver_sets.h">
+      <Filter>Source Files\features\rage</Filter>
+    </ClInclude>
+    <ClInclude Include="resolver.h">
+      <Filter>Source Files\features\rage</Filter>
+    </ClInclude>
+    <ClInclude Include="lagcomp.h">
+      <Filter>Source Files\features\rage</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>Source Files\features\visual</Filter>
+    </ClInclude>
+    <ClInclude Include="target_selection.h">
+      <Filter>Source Files\features\rage</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Source Files\features\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="playerlist.h">
+      <Filter>Source Files\features\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="factory.h">
+      <Filter>Source Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Source Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>Source Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Source Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="netvar_compression.h">
+      <Filter>Source Files\features\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Source Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="context.h">
+      <Filter>Source Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="fnv.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="x86.h">
+      <Filter>Source Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="precompiled.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>Source Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="boner.h">
+      <Filter>Source Files\features\rage</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="legit.h">
+      <Filter>Source Files\features\legit</Filter>
+    </ClInclude>
+    <ClInclude Include="antiaim.h">
+      <Filter>Source Files\features\rage</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="nade_prediction.h">
+      <Filter>Source Files\features\visual</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>Source Files\hack</Filter>
+    </ClInclude>
+    <ClInclude Include="anims.h">
+      <Filter>Source Files\features\rage</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lagcomp_legit.h">
+      <Filter>Source Files\features\legit</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
